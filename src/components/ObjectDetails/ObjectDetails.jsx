@@ -29,7 +29,6 @@ const ObjectDetails = ({place, selected, refProp}) => {
                     <Rating value={Number(place.rating)} readOnly />
                     <Typography gutterBottom variant='subtitle1'>out of { place.num_reviews } review</Typography>
                 </Box>
-                <Typography gutterBottom variant='h5'>{place.name}</Typography>
                 <Box display="flex" justifyContent="space-between">
                     <Typography variant='subtitle1'>Ranking</Typography>
                     <Typography gutterBottom variant='subtitle1' align="right">{ place.ranking }</Typography>
